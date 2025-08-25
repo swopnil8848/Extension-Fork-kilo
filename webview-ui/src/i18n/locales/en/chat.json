@@ -1,5 +1,5 @@
 {
-	"greeting": "What can Kilo Code do for you?",
+	"greeting": "What can Elari do for you?",
 	"task": {
 		"title": "Task",
 		"expand": "Expand task",
@@ -21,7 +21,7 @@
 		"sharePublicly": "Share Publicly",
 		"sharePubliclyDescription": "Anyone with the link can access",
 		"connectToCloud": "Connect to Cloud",
-		"connectToCloudDescription": "Sign in to Kilo Code Cloud to share tasks",
+		"connectToCloudDescription": "Sign in to Elaric Cloud to share tasks",
 		"sharingDisabledByOrganization": "Sharing disabled by organization",
 		"shareSuccessOrganization": "Organization link copied to clipboard",
 		"shareSuccessPublic": "Public link copied to clipboard"
@@ -100,7 +100,7 @@
 		"placeholder": "Edit your message..."
 	},
 	"scrollToBottom": "Scroll to bottom of chat",
-	"about": "Generate, refactor, and debug code with AI assistance. Check out our <DocsLink>documentation</DocsLink> to learn more.",
+	"about": "Generate, refactor, and debug code with Elaric AI assistance.",
 	"onboarding": "Your task list in this workspace is empty.",
 	"rooTips": {
 		"boomerangTasks": {
@@ -128,7 +128,7 @@
 		"title": "Modes",
 		"marketplace": "Mode Marketplace",
 		"settings": "Mode Settings",
-		"description": "Specialized personas that tailor Kilo Code's behavior.",
+		"description": "Specialized personas that tailor Elaric's behavior.",
 		"searchPlaceholder": "Search modes...",
 		"noResults": "No results found"
 	},
@@ -177,46 +177,46 @@
 		"tokens": "tokens"
 	},
 	"instructions": {
-		"wantsToFetch": "Kilo Code wants to fetch detailed instructions to assist with the current task"
+		"wantsToFetch": "Elaric wants to fetch detailed instructions to assist with the current task"
 	},
 	"fileOperations": {
-		"wantsToRead": "Kilo Code wants to read this file:",
-		"wantsToReadMultiple": "Kilo Code wants to read multiple files:",
-		"wantsToReadAndXMore": "Kilo Code wants to read this file and {{count}} more:",
-		"wantsToReadOutsideWorkspace": "Kilo Code wants to read this file outside of the workspace:",
-		"didRead": "Kilo Code read this file:",
-		"wantsToEdit": "Kilo Code wants to edit this file:",
-		"wantsToEditOutsideWorkspace": "Kilo Code wants to edit this file outside of the workspace:",
-		"wantsToEditProtected": "Kilo Code wants to edit a protected configuration file:",
-		"wantsToApplyBatchChanges": "Kilo Code wants to apply changes to multiple files:",
-		"wantsToCreate": "Kilo Code wants to create a new file:",
-		"wantsToSearchReplace": "Kilo Code wants to search and replace in this file:",
-		"didSearchReplace": "Kilo Code performed search and replace on this file:",
-		"wantsToInsert": "Kilo Code wants to insert content into this file:",
-		"wantsToInsertWithLineNumber": "Kilo Code wants to insert content into this file at line {{lineNumber}}:",
-		"wantsToInsertAtEnd": "Kilo Code wants to append content to the end of this file:"
+		"wantsToRead": "Elaric wants to read this file:",
+		"wantsToReadMultiple": "Elaric wants to read multiple files:",
+		"wantsToReadAndXMore": "Elaric wants to read this file and {{count}} more:",
+		"wantsToReadOutsideWorkspace": "Elaric wants to read this file outside of the workspace:",
+		"didRead": "Elaric read this file:",
+		"wantsToEdit": "Elaric wants to edit this file:",
+		"wantsToEditOutsideWorkspace": "Elaric wants to edit this file outside of the workspace:",
+		"wantsToEditProtected": "Elaric wants to edit a protected configuration file:",
+		"wantsToApplyBatchChanges": "Elaric wants to apply changes to multiple files:",
+		"wantsToCreate": "Elaric wants to create a new file:",
+		"wantsToSearchReplace": "Elaric wants to search and replace in this file:",
+		"didSearchReplace": "Elaric performed search and replace on this file:",
+		"wantsToInsert": "Elaric wants to insert content into this file:",
+		"wantsToInsertWithLineNumber": "Elaric wants to insert content into this file at line {{lineNumber}}:",
+		"wantsToInsertAtEnd": "Elaric wants to append content to the end of this file:"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "Kilo Code wants to view the top level files in this directory:",
-		"didViewTopLevel": "Kilo Code viewed the top level files in this directory:",
-		"wantsToViewTopLevelOutsideWorkspace": "Kilo Code wants to view the top level files in this directory (outside workspace):",
-		"didViewTopLevelOutsideWorkspace": "Kilo Code viewed the top level files in this directory (outside workspace):",
-		"wantsToViewRecursive": "Kilo Code wants to recursively view all files in this directory:",
-		"didViewRecursive": "Kilo Code recursively viewed all files in this directory:",
-		"wantsToViewRecursiveOutsideWorkspace": "Kilo Code wants to recursively view all files in this directory (outside workspace):",
-		"didViewRecursiveOutsideWorkspace": "Kilo Code recursively viewed all files in this directory (outside workspace):",
-		"wantsToViewDefinitions": "Kilo Code wants to view source code definition names used in this directory:",
-		"didViewDefinitions": "Kilo Code viewed source code definition names used in this directory:",
-		"wantsToViewDefinitionsOutsideWorkspace": "Kilo Code wants to view source code definition names used in this directory (outside workspace):",
-		"didViewDefinitionsOutsideWorkspace": "Kilo Code viewed source code definition names used in this directory (outside workspace):",
-		"wantsToSearch": "Kilo Code wants to search this directory for <code>{{regex}}</code>:",
-		"didSearch": "Kilo Code searched this directory for <code>{{regex}}</code>:",
-		"wantsToSearchOutsideWorkspace": "Kilo Code wants to search this directory (outside workspace) for <code>{{regex}}</code>:",
-		"didSearchOutsideWorkspace": "Kilo Code searched this directory (outside workspace) for <code>{{regex}}</code>:"
+		"wantsToViewTopLevel": "Elaric wants to view the top level files in this directory:",
+		"didViewTopLevel": "Elaric viewed the top level files in this directory:",
+		"wantsToViewTopLevelOutsideWorkspace": "Elaric wants to view the top level files in this directory (outside workspace):",
+		"didViewTopLevelOutsideWorkspace": "Elaric viewed the top level files in this directory (outside workspace):",
+		"wantsToViewRecursive": "Elaric wants to recursively view all files in this directory:",
+		"didViewRecursive": "Elaric recursively viewed all files in this directory:",
+		"wantsToViewRecursiveOutsideWorkspace": "Elaric wants to recursively view all files in this directory (outside workspace):",
+		"didViewRecursiveOutsideWorkspace": "Elaric recursively viewed all files in this directory (outside workspace):",
+		"wantsToViewDefinitions": "Elaric wants to view source code definition names used in this directory:",
+		"didViewDefinitions": "Elaric viewed source code definition names used in this directory:",
+		"wantsToViewDefinitionsOutsideWorkspace": "Elaric wants to view source code definition names used in this directory (outside workspace):",
+		"didViewDefinitionsOutsideWorkspace": "Elaric viewed source code definition names used in this directory (outside workspace):",
+		"wantsToSearch": "Elaric wants to search this directory for <code>{{regex}}</code>:",
+		"didSearch": "Elaric searched this directory for <code>{{regex}}</code>:",
+		"wantsToSearchOutsideWorkspace": "Elaric wants to search this directory (outside workspace) for <code>{{regex}}</code>:",
+		"didSearchOutsideWorkspace": "Elaric searched this directory (outside workspace) for <code>{{regex}}</code>:"
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "Kilo Code wants to search the codebase for <code>{{query}}</code>:",
-		"wantsToSearchWithPath": "Kilo Code wants to search the codebase for <code>{{query}}</code> in <code>{{path}}</code>:",
+		"wantsToSearch": "Elaric wants to search the codebase for <code>{{query}}</code>:",
+		"wantsToSearchWithPath": "Elaric wants to search the codebase for <code>{{query}}</code> in <code>{{path}}</code>:",
 		"didSearch_one": "Found 1 result",
 		"didSearch_other": "Found {{count}} results",
 		"resultTooltip": "Similarity score: {{score}} (click to open file)"
@@ -241,18 +241,18 @@
 	"response": "Response",
 	"arguments": "Arguments",
 	"mcp": {
-		"wantsToUseTool": "Kilo Code wants to use a tool on the {{serverName}} MCP server:",
-		"wantsToAccessResource": "Kilo Code wants to access a resource on the {{serverName}} MCP server:"
+		"wantsToUseTool": "Elaric wants to use a tool on the {{serverName}} MCP server:",
+		"wantsToAccessResource": "Elaric wants to access a resource on the {{serverName}} MCP server:"
 	},
 	"modes": {
-		"wantsToSwitch": "Kilo Code wants to switch to {{mode}} mode",
-		"wantsToSwitchWithReason": "Kilo Code wants to switch to {{mode}} mode because: {{reason}}",
-		"didSwitch": "Kilo Code switched to {{mode}} mode",
-		"didSwitchWithReason": "Kilo Code switched to {{mode}} mode because: {{reason}}"
+		"wantsToSwitch": "Elaric wants to switch to {{mode}} mode",
+		"wantsToSwitchWithReason": "Elaric wants to switch to {{mode}} mode because: {{reason}}",
+		"didSwitch": "Elaric switched to {{mode}} mode",
+		"didSwitchWithReason": "Elaric switched to {{mode}} mode because: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "Kilo Code wants to create a new subtask in {{mode}} mode:",
-		"wantsToFinish": "Kilo Code wants to finish this subtask",
+		"wantsToCreate": "Elaric wants to create a new subtask in {{mode}} mode:",
+		"wantsToFinish": "Elaric wants to finish this subtask",
 		"newTaskContent": "Subtask Instructions",
 		"completionContent": "Subtask Completed",
 		"resultContent": "Subtask Results",
@@ -260,21 +260,21 @@
 		"completionInstructions": "Subtask completed! You can review the results and suggest any corrections or next steps. If everything looks good, confirm to return the result to the parent task."
 	},
 	"questions": {
-		"hasQuestion": "Kilo Code has a question:"
+		"hasQuestion": "Elaric has a question:"
 	},
 	"taskCompleted": "Task Completed",
 	"error": "Error",
 	"diffError": {
 		"title": "Edit Unsuccessful"
 	},
-	"troubleMessage": "Kilo Code is having trouble...",
+	"troubleMessage": "Elaric is having trouble...",
 	"powershell": {
 		"issues": "It seems like you're having Windows PowerShell issues, please see this"
 	},
 	"autoApprove": {
 		"title": "Auto-approve:",
 		"none": "None",
-		"description": "Auto-approve allows Kilo Code to perform actions without asking for permission. Only enable for actions you fully trust. More detailed configuration available in <settingsLink>Settings</settingsLink>.",
+		"description": "Auto-approve allows Elaric to perform actions without asking for permission. Only enable for actions you fully trust. More detailed configuration available in <settingsLink>Settings</settingsLink>.",
 		"selectOptionsFirst": "Select at least one option below to enable auto-approval",
 		"toggleAriaLabel": "Toggle auto-approval",
 		"disabledAriaLabel": "Auto-approval disabled - select options first"
@@ -298,7 +298,7 @@
 		"countdownDisplay": "{{count}}s"
 	},
 	"browser": {
-		"rooWantsToUse": "Kilo Code wants to use the browser:",
+		"rooWantsToUse": "Elaric wants to use the browser:",
 		"consoleLogs": "Console Logs",
 		"noNewLogs": "(No new logs)",
 		"screenshot": "Browser screenshot",
@@ -332,13 +332,13 @@
 	"profileViolationWarning": "The current profile isn't compatible with your organization's settings",
 	"shellIntegration": {
 		"title": "Command Execution Warning",
-		"description": "Your command is being executed without VSCode terminal shell integration. To suppress this warning you can disable shell integration in the <strong>Terminal</strong> section of the <settingsLink>Kilo Code settings</settingsLink> or troubleshoot VSCode terminal integration using the link below.",
+		"description": "Your command is being executed without VSCode terminal shell integration. To suppress this warning you can disable shell integration in the <strong>Terminal</strong> section of the <settingsLink>Elaric settings</settingsLink> or troubleshoot VSCode terminal integration using the link below.",
 		"troubleshooting": "Click here for shell integration documentation."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Auto-Approved Request Limit Reached",
-			"description": "Kilo Code has reached the auto-approved limit of {{count}} API request(s). Would you like to reset the count and proceed with the task?",
+			"description": "Elaric has reached the auto-approved limit of {{count}} API request(s). Would you like to reset the count and proceed with the task?",
 			"button": "Reset and Continue"
 		},
 		"autoApprovedCostLimitReached": {

@@ -15,6 +15,7 @@ import { Tab, TabContent, TabHeader } from "@src/components/common/Tab"
 import { Button } from "@src/components/ui"
 import KiloCodeAuth from "../common/KiloCodeAuth"
 import { OrganizationSelector } from "../common/OrganizationSelector"
+// const elaricLogo = new URL("../../../../assets/elariclogo.jpg", import.meta.url).toString();
 
 interface ProfileViewProps {
 	onDone: () => void
@@ -22,11 +23,15 @@ interface ProfileViewProps {
 
 const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 	const { apiConfiguration, currentApiConfigName, uriScheme, uiKind } = useExtensionState()
+	// const { imagesBaseUri } = useExtensionState();
 	const { t } = useAppTranslation()
 	const [profileData, setProfileData] = React.useState<ProfileData | undefined | null>(null)
 	const [balance, setBalance] = React.useState<number | null>(null)
 	const [isLoadingBalance, setIsLoadingBalance] = React.useState(true)
 	const [isLoadingUser, setIsLoadingUser] = React.useState(true)
+
+	console.log('Images base URI:', (window as any).IMAGES_BASE_URI);
+console.log('Trying to load image at:', `${(window as any).IMAGES_BASE_URI}/elariclogo.jpg`);
 
 	useEffect(() => {
 		vscode.postMessage({
@@ -127,6 +132,7 @@ const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 		<Tab>
 			<TabHeader className="flex justify-between items-center">
 				<h3 className="text-vscode-foreground m-0">{t("kilocode:profile.title")}</h3>
+				{/* <div>hello this is swopnil</div> */}
 				<Button onClick={onDone}>{t("settings:common.done")}</Button>
 			</TabHeader>
 			<TabContent>
@@ -266,7 +272,15 @@ const ProfileView: React.FC<ProfileViewProps> = ({ onDone }) => {
 							</div>
 						) : (
 							<div className="flex flex-col items-center pr-3">
-								<KiloCodeAuth className="w-full" />
+								{/* <KiloCodeAuth className="w-full" /> */}
+								<div>
+									<div className="rounded-xl">
+										<img src={`${(window as any).IMAGES_BASE_URI}/elariclogo.jpg`} alt="logo" />
+									</div>
+									<div className="flex text-justify justify-evenly text-bold text-xl mt-4 rounded xl">
+										Welcome User to Elaric!!
+									</div>
+								</div>
 							</div>
 						)}
 					</div>

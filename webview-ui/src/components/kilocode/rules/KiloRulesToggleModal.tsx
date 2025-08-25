@@ -24,9 +24,9 @@ interface DescriptionWithLinkProps {
 const DescriptionWithLink: React.FC<DescriptionWithLinkProps> = ({ children, href, linkText }) => (
 	<p>
 		{children}{" "}
-		<VSCodeLink href={href} style={{ display: "inline" }} className="text-xs">
+		{/* <VSCodeLink href={href} style={{ display: "inline" }} className="text-xs">
 			{linkText}
-		</VSCodeLink>
+		</VSCodeLink> */}
 	</p>
 )
 
